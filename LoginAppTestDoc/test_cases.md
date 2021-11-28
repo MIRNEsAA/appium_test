@@ -35,13 +35,15 @@ Steps
 1. Enter a valid e-mail in the "E-mail" field
 1. Enter a '12345' in the "Password" field, which is not long enough
 1. Click the exclamation mark icon next to the "Password" field
+1. Verify that the "Sign in or Register" is not enabled
 
 Expected Results
 ----------------
 1. The sign-in screen appears
 1. The entered value is displayed in the field. No red exclamation mark is shown.
 1. An exclamation mark icon is displayed next to the "Password" field. The "Sign in or Register" button is not enabled.
-1. A popup saying "The password must be >=5 characters" is displayed on screen. The "Sign in or Register" button is not enabled.
+1. A popup saying "The password must be >=5 characters" is displayed on screen.
+1. The "Sign in or Register" button is not enabled.
 
 Test case 03 - Test if the user cannot sign in with an empty e-mail
 ===================================================================
@@ -57,10 +59,12 @@ Steps
 1. Start the activity
 1. Enter a valid password in the "Password" field
 1. Click the exclamation mark  next to the "E-mail" fields
+1. Verify that the "Sign in or Register" is not enabled
 
 Expected Results
 ----------------
 1. The sign-in screen appears
 1. Masking characters are displayed in the field. No red exclamation mark is shown. The "Sign in or Register" button is not enabled.
 An exclamation mark icon is displayed next to the "E-mail" field.
-1. A popup saying "Not a valid username" is displayed. The "Sign in or Register" button is not enabled.
+1. A popup saying "Not a valid username" is displayed.
+1. The "Sign in or Register" button is not enabled.
